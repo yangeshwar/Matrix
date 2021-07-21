@@ -4,8 +4,8 @@ body {
 
 .matrix{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 400px
+    grid-template-columns: repeat(auto-fit, minmax(226px, 1fr));
+    grid-gap: 1rem;
 }
 .product {
     display: flex;
@@ -26,6 +26,7 @@ body {
 
 .product-img img {
     width: 150px;
+    height: 150px;
 }
 
 .product-img {
